@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//android.webkit.WebView[@text=\"Roll\"]/android.view.View/android.view.View/android.view.View/android.view.View[2]/android.view.View[2]/android.widget.EditText[2]"
+}

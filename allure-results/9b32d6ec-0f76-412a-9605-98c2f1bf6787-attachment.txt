@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//android.widget.TextView[@text=\"Say hello to a whole new way to (pay)roll\"]"
+}
