@@ -10,7 +10,7 @@ class ChatPage extends Page {
      */
     constructor(){
         super();
-        this.CHAT_PAGE_LOADED = '//android.webkit.WebView[@text="ADP Roll - Chat"]/android.view.View/android.view.View[3]/android.view.View';
+        this.CHAT_PAGE_LOADED = '';
 
     }
 

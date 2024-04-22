@@ -13,11 +13,11 @@ class LoginPage extends Page {
 
     constructor(){
         super();
-        this.LOGIN_PAGE_LOADED = '//android.widget.TextView[@text="Say hello to a whole new way to (pay)roll"]';
-        this.CONTINUE_WITH_EMAIL = '//android.widget.Button[@text="Continue with email"]';
-        this.LOGIN_USERNAME = '//android.webkit.WebView[@text="Roll"]/android.view.View/android.view.View/android.view.View/android.view.View[2]/android.view.View[2]/android.widget.EditText[1]';
-        this.LOGIN_PASSWORD = '//android.webkit.WebView[@text="Roll"]/android.view.View/android.view.View/android.view.View/android.view.View[2]/android.view.View[2]/android.widget.EditText[2]';
-        this.LOGIN_SUBMIT = '//android.widget.Button[@text="Submit"]';
+        this.LOGIN_PAGE_LOADED = '';
+        this.CONTINUE_WITH_EMAIL = '';
+        this.LOGIN_USERNAME = '';
+        this.LOGIN_PASSWORD = '';
+        this.LOGIN_SUBMIT = '';
     }
 
     get loginPageLoaded (){ return $(this.LOGIN_PAGE_LOADED)};
